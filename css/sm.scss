@@ -1,0 +1,55 @@
+@media only screen and (max-device-width : 569px) {
+
+	.icon-three {
+		font-size: .65em;
+	}
+
+	.hide-sm {
+		display: none !important;
+	}
+
+	h1 {
+		font-weight: 100;
+	}
+	.container {
+		width: 93.75%;
+		max-width: 300px;
+	}
+	.hero {
+		/*background-image: url('../img/beach2.jpg');*/
+		background: $white;
+
+		display: flex;
+		vertical-align: middle;
+		border-bottom: 4em solid $lightgrey;
+		.img-container {
+			padding: 2em 0;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.content {
+		background: $black;
+		color: $white;
+		h1,
+		h2,
+		h3,
+		li {
+			color: $white;
+		}
+		.text-container {
+			width: 85%;
+		}
+	}
+	footer {
+  	height: 100%;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
+	}
+}
