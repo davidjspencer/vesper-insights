@@ -90,15 +90,6 @@ section ul li {
       width: 100%;
       height: auto; }
 
-.parallax {
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 video {
   position: fixed;
   right: 0;
@@ -305,12 +296,12 @@ footer {
   .hero {
     /*background-image: url('../img/beach2.jpg');*/
     background: white;
+    height: 50vh;
     display: flex;
     vertical-align: middle;
     border-bottom: 4em solid #d3d3d3; }
     .hero .img-container {
-      padding: 2em 0;
-      width: 100%;
+      width: 90%;
       margin-left: auto;
       margin-right: auto; }
 
@@ -323,7 +314,8 @@ footer {
     .content li {
       color: white; }
     .content .text-container {
-      width: 85%; }
+      width: 90%;
+      padding: 2em 0; }
 
   footer {
     height: 100%; }
@@ -347,6 +339,15 @@ footer {
     .hero .img-container img {
       width: 100%;
       height: auto; }
+
+  .parallax {
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
   .vesper-logo-tag {
     filter: drop-shadow(3px 3px 2px #656556); }
