@@ -90,9 +90,6 @@ section ul li {
       width: 100vw;
       height: auto; }
 
-.vesper-logo-tag {
-  filter: drop-shadow(3px 3px 2px #656556); }
-
 .parallax {
   /* Full height */
   height: 100%;
@@ -150,7 +147,8 @@ footer {
     width: 100%;
     background: #ef32d9; }
   footer h1 {
-    color: #d3d3d3; }
+    color: #d3d3d3;
+    padding: .5em 0; }
   footer p {
     font-size: .75em; }
   footer .footer-col {
@@ -159,7 +157,7 @@ footer {
     float: left;
     min-height: 1px;
     /*gives spacing to empty footer-col*/
-    width: calc(100% / 3); }
+    width: 100%; }
   footer::before {
     content: "";
     position: absolute;
@@ -349,6 +347,9 @@ footer {
     .hero .img-container img {
       width: 100%;
       height: auto; }
+
+  .vesper-logo-tag {
+    filter: drop-shadow(3px 3px 2px #656556); }
 
   footer {
     margin-top: 8em; } }

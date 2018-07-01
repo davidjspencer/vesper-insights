@@ -20,6 +20,10 @@
 		}
 	}
 
+	.vesper-logo-tag {
+		filter: drop-shadow(3px 3px 2px lighten($black, 20));
+	}
+
 	footer {
 		margin-top: 8em;
 	}
