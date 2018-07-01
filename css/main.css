@@ -87,8 +87,11 @@ section ul li {
     margin-right: auto;
     vertical-align: middle; }
     .hero .img-container img {
-      width: 100%;
+      width: 100vw;
       height: auto; }
+
+.vesper-logo-tag {
+  filter: drop-shadow(3px 3px 2px #656556); }
 
 .parallax {
   /* Full height */
@@ -109,7 +112,7 @@ video {
   min-height: 100%;
   z-index: -100;
   background-size: cover;
-  filter: grayscale(100%); }
+  filter: grayscale(100%) opacity(0.8); }
 
 .content {
   display: flex;
@@ -331,5 +334,23 @@ footer {
       float: left;
       width: 100%;
       text-align: center; } }
+@media only screen and (min-device-width: 820px) {
+  /* LARGE */
+  .hide-lg {
+    display: none !important; }
+
+  .container {
+    width: 93.75%;
+    max-width: 1003px; }
+
+  .hero .img-container {
+    width: 80%;
+    height: 100%; }
+    .hero .img-container img {
+      width: 100%;
+      height: auto; }
+
+  footer {
+    margin-top: 8em; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -103,12 +103,14 @@ section ul li {
 		margin-right: auto;
 		vertical-align: middle;
 		img {
-			width: 100%;
+			width: 100vw;
 			height: auto;
 		}
 	}
 }
-
+.vesper-logo-tag {
+	filter: drop-shadow(3px 3px 2px lighten($black, 20));
+}
 .parallax {
     /* Full height */
     height: 100%;
@@ -128,7 +130,7 @@ video {
 	min-height: 100%;
 	z-index: -100;
 	background-size: cover;
-	filter: grayscale(100%);
+	filter: grayscale(100%) opacity(.8);
 }
 .content {
 	display: flex;
@@ -211,3 +213,4 @@ footer {
 }
 @import 'menu';
 @import 'sm';
+@import 'lg';
