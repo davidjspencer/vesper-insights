@@ -92,6 +92,11 @@ section ul li {
 		font-size: 1.5em;
 	}
 }
+.block-bullets {
+	ul > li:hover {
+		color: $white;
+	}
+}
 section ul.aqua li {
 	&::before {
 		color:$aqua;
@@ -237,6 +242,7 @@ footer {
 		position: absolute;
 		left: 50%;
 		bottom: 0;
+		z-index: 2;
 		height: 100px;
 		width: 100px;
 		border-radius: 50%;
@@ -252,7 +258,6 @@ footer {
 .supporting-page__content {
 	position: relative;
 	overflow: auto;
-	z-index: -1;
 	background: $black;
 	color: $lightgrey;
 
