@@ -31,12 +31,12 @@
 
 	.content {
 		background: $black;
-		color: $white;
+		color: $lightgrey;
 		h1,
 		h2,
 		h3,
 		li {
-			color: $white;
+			color: $lightgrey;
 		}
 		.text-container {
 			width: 90%;
@@ -52,5 +52,10 @@
 
 			text-align: center;
 		}
+	}
+
+	.supporting-page__content {
+		padding: 4em 0;
+
 	}
 }

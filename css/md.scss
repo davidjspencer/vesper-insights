@@ -1,0 +1,130 @@
+@media only screen and (min-device-width : 570px) and (max-device-width : 694px) {
+
+/* ####    INBETWEEN     #### */
+	.icon-three {
+		font-size: .75em;
+	}
+
+	.hide-sm {
+		display: none !important;
+	}
+
+	h1 {
+		font-weight: 200;
+	}
+	.hero {
+		/*background-image: url('../img/beach2.jpg');*/
+		background: $white;
+
+		display: flex;
+		vertical-align: middle;
+		border-bottom: 4em solid $lightgrey;
+		.img-container {
+			padding: 4em 0;
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.container {
+		width: 93.75%;
+		max-width: 534px;
+	}
+	.service {
+		border-bottom: 2em solid $service-border;
+	}
+	.clients {
+		.row {
+			.row--item__logo {
+				float: left;
+				width: 50%;
+			}
+		}
+	}
+	footer {
+  	height: 100%;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
+	}
+
+	footer {
+		margin-top: 8em;
+	}
+
+	/* About */
+	.supporting-page-content {
+		padding: 4em 0;
+		.row {
+			width: 90%;
+			.col {
+				width: 50%;
+			}
+			.col:first-child {
+				padding-right: 1em;
+			}
+			.col:nth-child(2) {
+				padding-left: 1em;
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width : 695px) and (max-device-width : 819px)  {
+
+/* ####    MEDIUM     #### */
+	.icon-three {
+		font-size: 1em;
+	}
+
+	.hide-lg {
+		display: none !important;
+	}
+
+	h1 {
+		font-weight: 200;
+	}
+	.hero {
+
+		display: flex;
+		vertical-align: middle;
+		.img-container {
+			padding: 4em 0;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.container {
+		width: 93.75%;
+		max-width: 768px;
+	}
+
+	footer {
+  	height: 100%;
+  	margin-top: 8em;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
+	}
+
+	/* About */
+	.supporting-page-content {
+		padding: 4em 0;
+	}
+	footer {
+		margin-top: 8em;
+	}
+}
