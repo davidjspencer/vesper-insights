@@ -389,7 +389,10 @@ footer {
     height: 50px; }
 
   .supporting-page__content {
-    padding: 6em 0; } }
+    padding: 6em 0; }
+    .supporting-page__content .text-container {
+      width: 90%;
+      padding: 2em 0; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
   /* ####    INBETWEEN     #### */
   .icon-three {
