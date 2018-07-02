@@ -59,6 +59,9 @@ p {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
 
+strong {
+  color: #89fffd; }
+
 section ul li {
   position: relative;
   font-family: "Raleway", sans-serif;
@@ -218,6 +221,11 @@ footer {
   justify-content: center;
   min-height: 80vh;
   padding: 2em 0; }
+  .supporting-page__content a {
+    color: white; }
+    .supporting-page__content a:hover {
+      border-bottom: 1px solid #ef32d9;
+      font-weight: bold; }
   .supporting-page__content .text-container {
     width: 60%;
     margin: auto; }
@@ -522,7 +530,11 @@ footer {
     filter: drop-shadow(3px 3px 2px #656556); }
 
   footer {
-    margin-top: 8em; } }
+    margin-top: 8em; }
+
+  .supporting-page__content {
+    padding-top: 8em;
+    padding-bottom: 8em; } }
 @media only screen and (min-device-width: 1070px) {
   .container {
     max-width: 1237px;

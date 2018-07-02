@@ -50,8 +50,7 @@ a {
 	text-decoration: none;
 	padding-bottom: 2px;
 	border-bottom: 1px solid $aqua;
-	&:hover {
-	}
+
 }
 li a { /* menu items */
 	font-family: $mont;
@@ -73,6 +72,9 @@ p {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+strong {
+	color: $aqua;
 }
 section ul li {
 	position: relative;
@@ -267,6 +269,13 @@ footer {
   justify-content: center;
 	min-height: 80vh;
 	padding: 2em 0;
+	a {
+		color: $white;
+		&:hover {
+			border-bottom: 1px solid $purple;
+			font-weight: bold;
+		}
+	}
 	.text-container {
 		width: 60%;
 		margin: auto;
