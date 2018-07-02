@@ -76,6 +76,9 @@ section ul li {
     font-weight: bolder;
     font-size: 1.5em; }
 
+section ul.aqua li::before {
+  color: #89fffd; }
+
 .hero {
   width: 100%;
   position: relative; }
@@ -207,8 +210,20 @@ footer {
   z-index: -1;
   background: #2E2E27;
   color: #d3d3d3;
-  min-height: 500px;
-  padding: 12em 0; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 2em 0; }
+  .supporting-page__content .text-container {
+    width: 60%;
+    margin: auto; }
+  .supporting-page__content h3 {
+    padding: 1.5em 0 .75em;
+    font-size: 1em;
+    font-weight: bold; }
+  .supporting-page__content .block-bullets {
+    margin-top: 1.5em; }
   .supporting-page__content h2,
   .supporting-page__content h3,
   .supporting-page__content p,
