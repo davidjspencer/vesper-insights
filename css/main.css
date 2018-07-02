@@ -243,6 +243,12 @@ footer {
     color: #d3d3d3; }
   .supporting-page__content h2 {
     text-align: center; }
+  .supporting-page__content .portrait {
+    width: 100%; }
+    .supporting-page__content .portrait img {
+      border-radius: 50%;
+      width: 100%;
+      height: auto; }
 
 /* Icon 3 */
 .icon-three {
@@ -535,7 +541,22 @@ footer {
 
   .supporting-page__content {
     padding-top: 8em;
-    padding-bottom: 8em; } }
+    padding-bottom: 8em; }
+    .supporting-page__content .portrait {
+      width: 25%;
+      display: inline-block;
+      float: left; }
+      .supporting-page__content .portrait img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto; }
+    .supporting-page__content .text {
+      width: 70%;
+      margin-left: 5%;
+      display: inline-block;
+      float: left; }
+      .supporting-page__content .text h2 {
+        text-align: left; } }
 @media only screen and (min-device-width: 1070px) {
   .container {
     max-width: 1237px;

@@ -40,5 +40,25 @@
 	.supporting-page__content {
 		padding-top: 8em;
 		padding-bottom: 8em;
+		.portrait {
+			width: 25%;
+			display: inline-block;
+			float: left;
+
+			img {
+				border-radius: 50%;
+				width: 100%;
+				height: auto;
+			}
+		}
+		.text {
+			width: 70%;
+			margin-left: 5%;
+			display: inline-block;
+			float: left;
+			h2 {
+				text-align: left;
+			}
+		}
 	}
 }

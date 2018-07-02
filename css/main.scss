@@ -299,8 +299,14 @@ footer {
 	h2 {
 		text-align: center;
 	}
-	.text-container {
+	.portrait {
+		width: 100%;
 
+		img {
+			border-radius: 50%;
+			width: 100%;
+			height: auto;
+		}
 	}
 }
 @import 'menu';
