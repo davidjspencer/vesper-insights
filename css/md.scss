@@ -13,38 +13,31 @@
 		font-weight: 200;
 	}
 	.hero {
-		/*background-image: url('../img/beach2.jpg');*/
+		/* Shows as .supporting-page */
+		position: relative;
 		background: $white;
+		height: 50vh;
 
-		display: flex;
-		vertical-align: middle;
-		border-bottom: 4em solid $lightgrey;
-		.img-container {
-			padding: 4em 0;
-			width: 60%;
-			margin-left: auto;
-			margin-right: auto;
-			img {
-				width: 100%;
-				height: auto;
-			}
+	}
+	.content {
+		background: $black;
+		color: $lightgrey;
+		h1,
+		h2,
+		h3,
+		li {
+			color: $lightgrey;
+		}
+		.text-container {
+			width: 90%;
+			padding: 2em 0;
 		}
 	}
 	.container {
 		width: 93.75%;
 		max-width: 534px;
 	}
-	.service {
-		border-bottom: 2em solid $service-border;
-	}
-	.clients {
-		.row {
-			.row--item__logo {
-				float: left;
-				width: 50%;
-			}
-		}
-	}
+
 	footer {
   	height: 100%;
 	  .footer-col {
@@ -61,20 +54,14 @@
 	}
 
 	/* About */
+	.supporting-page {
+		.circle {
+			width: 50px;
+			height: 50px;
+		}
+	}
 	.supporting-page-content {
 		padding: 4em 0;
-		.row {
-			width: 90%;
-			.col {
-				width: 50%;
-			}
-			.col:first-child {
-				padding-right: 1em;
-			}
-			.col:nth-child(2) {
-				padding-left: 1em;
-			}
-		}
 	}
 }
 
@@ -85,7 +72,7 @@
 		font-size: 1em;
 	}
 
-	.hide-lg {
+	.hide-sm {
 		display: none !important;
 	}
 
@@ -93,14 +80,20 @@
 		font-weight: 200;
 	}
 	.hero {
+		/* Shows as .supporting-page */
+		position: relative;
+		background: $white;
+		height: 50vh;
 
-		display: flex;
-		vertical-align: middle;
-		.img-container {
-			padding: 4em 0;
-			width: 80%;
-			margin-left: auto;
-			margin-right: auto;
+	}
+	.content {
+		background: $black;
+		color: $lightgrey;
+		h1,
+		h2,
+		h3,
+		li {
+			color: $lightgrey;
 		}
 	}
 	.container {
@@ -121,6 +114,12 @@
 	}
 
 	/* About */
+	.supporting-page {
+		.circle {
+			width: 75px;
+			height: 75px;
+		}
+	}
 	.supporting-page-content {
 		padding: 4em 0;
 	}
