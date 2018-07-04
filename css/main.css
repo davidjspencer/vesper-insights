@@ -24,7 +24,7 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
-  font-size: 2.2em;
+  font-size: 2em;
   letter-spacing: .2em;
   line-height: 1.5em;
   color: #2E2E27; }
@@ -130,7 +130,7 @@ footer {
   height: 100%;
   min-height: 400px;
   color: #d3d3d3;
-  margin-top: 8em;
+  margin-top: 4em;
   padding: 8em 0;
   text-align: center; }
   footer a {
@@ -238,6 +238,13 @@ footer {
       width: 100%;
       height: auto; }
 
+.clients {
+  background: #d3d3d3 !important; }
+  .clients h1,
+  .clients h2 {
+    color: #2E2E27 !important;
+    padding: 1em 0; }
+
 .supporting-page__content {
   position: relative;
   overflow: auto;
@@ -275,6 +282,28 @@ footer {
       border-radius: 50%;
       width: 100%;
       height: auto; }
+  .supporting-page__content .row {
+    clear: both;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap; }
+    .supporting-page__content .row .row--item__logo {
+      width: 25%;
+      padding: 2em;
+      align-items: center;
+      justify-content: center; }
+      .supporting-page__content .row .row--item__logo a {
+        border-bottom: none; }
+        .supporting-page__content .row .row--item__logo a:hover {
+          border-bottom: none; }
+        .supporting-page__content .row .row--item__logo a img {
+          display: block;
+          width: 100%;
+          margin: auto;
+          height: auto;
+          filter: grayscale(100%); }
+          .supporting-page__content .row .row--item__logo a img:hover {
+            filter: grayscale(0%); }
 
 /* Icon 3 */
 .icon-three {
@@ -484,7 +513,10 @@ footer {
     height: 50px; }
 
   .supporting-page-content {
-    padding: 4em 0; } }
+    padding: 4em 0; }
+    .supporting-page-content .row .row--item__logo {
+      float: left;
+      width: 50%; } }
 @media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
   /* ####    MEDIUM     #### */
   .icon-three {

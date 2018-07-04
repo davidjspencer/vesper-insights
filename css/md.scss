@@ -62,6 +62,12 @@
 	}
 	.supporting-page-content {
 		padding: 4em 0;
+		.row {
+			.row--item__logo {
+				float: left;
+				width: 50%;
+			}
+		}
 	}
 }
 
