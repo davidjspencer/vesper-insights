@@ -57,5 +57,23 @@
 			width: 90%;
 			padding: 2em 0;
 		}
+		.row {
+			width: 100%;
+			.row--item__logo {
+				display: inline-block !important;
+				float: left;
+				width: 50%;
+
+				a {
+		    	display: inline-block !important;
+		    	float: left !important;
+		      img {
+		        display: inline-block !important;
+		        width: 100% !important;
+		        height: auto;
+		      }
+		    }
+			}
+		}
 	}
 }

@@ -464,7 +464,20 @@ footer {
     padding: 6em 0; }
     .supporting-page__content .text-container {
       width: 90%;
-      padding: 2em 0; } }
+      padding: 2em 0; }
+    .supporting-page__content .row {
+      width: 100%; }
+      .supporting-page__content .row .row--item__logo {
+        display: inline-block !important;
+        float: left;
+        width: 50%; }
+        .supporting-page__content .row .row--item__logo a {
+          display: inline-block !important;
+          float: left !important; }
+          .supporting-page__content .row .row--item__logo a img {
+            display: inline-block !important;
+            width: 100% !important;
+            height: auto; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
   /* ####    INBETWEEN     #### */
   .icon-three {
@@ -565,6 +578,9 @@ footer {
 
   .supporting-page-content {
     padding: 4em 0; }
+    .supporting-page-content .row .row--item__logo {
+      float: left;
+      width: 50%; }
 
   footer {
     margin-top: 8em; } }
