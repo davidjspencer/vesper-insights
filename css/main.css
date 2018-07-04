@@ -286,7 +286,9 @@ footer {
     clear: both;
     display: inline-flex;
     width: 100%;
-    flex-wrap: wrap; }
+    margin-top: 1em;
+    flex-wrap: wrap;
+    justify-content: center; }
     .supporting-page__content .row .row--item__logo {
       width: 25%;
       padding: 2em;
