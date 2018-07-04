@@ -60,7 +60,8 @@ p {
   -webkit-margin-end: 0px; }
 
 strong {
-  color: #89fffd; }
+  color: #89fffd;
+  font-weight: 700; }
 
 section ul {
   padding-top: 1em; }
@@ -78,7 +79,7 @@ section ul {
       left: .1rem;
       top: -.2em;
       color: #ef32d9;
-      font-weight: bolder;
+      font-weight: 700;
       font-size: 1.5em; }
 
 .block-bullets ul > li:hover {
@@ -259,14 +260,14 @@ footer {
     color: white; }
     .supporting-page__content a:hover {
       border-bottom: 1px solid #ef32d9;
-      font-weight: bold; }
+      font-weight: 400; }
   .supporting-page__content .text-container {
     width: 60%;
     margin: auto; }
   .supporting-page__content h3 {
     padding: 1.5em 0 .75em;
     font-size: 1em;
-    font-weight: bold; }
+    font-weight: 700; }
   .supporting-page__content .block-bullets {
     margin-top: 1.5em; }
   .supporting-page__content h2,
