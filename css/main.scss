@@ -77,22 +77,25 @@ p {
 strong {
 	color: $aqua;
 }
-section ul li {
-	position: relative;
-	font-family: $rale;
-	list-style-type: none;
-	padding-bottom: 1em;
-	padding-left: 1em;
-	color: $black;
+section ul  {
+	padding-top: 1em;
+	li {
+		position: relative;
+		font-family: $rale;
+		list-style-type: none;
+		padding-bottom: 1em;
+		padding-left: 1em;
+		color: $black;
 
-	&::before {
-		content: '\002B'; /* '+' symbol */
-		position: absolute;
-		left: .1rem;
-		top: -.2em;
-		color: $purple;
-		font-weight: bolder;
-		font-size: 1.5em;
+		&::before {
+			content: '\002B'; /* '+' symbol */
+			position: absolute;
+			left: .1rem;
+			top: -.2em;
+			color: $purple;
+			font-weight: bolder;
+			font-size: 1.5em;
+		}
 	}
 }
 .block-bullets {
@@ -198,7 +201,7 @@ footer {
 		width: 100%;
 		height: 1em;
 		background: $gradient;
-		background-size: 400% 400%;
+		background-size: 200% 200%;
 		-webkit-animation: Gradient 15s ease infinite;
 		-moz-animation: Gradient 15s ease infinite;
 		animation: Gradient 15s ease infinite;
