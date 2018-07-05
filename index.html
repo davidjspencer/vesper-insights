@@ -25,7 +25,6 @@
 		 <div class="hamburger hamburger-three"></div>
 	</div>
 	<section class="hero parallax">
-
 		<video class="hide-sm" autoplay loop muted width="100%" poster="img/beach2.jpg">
       <source src="img/beach2.mp4" type="video/mp4" />
       <source src="img/beach2.mp4" type="video/webm" />
@@ -33,7 +32,6 @@
 		<div class="img-container hide-sm">
 			<img class="vesper-logo-tag" src="img/vesperinsights.svg" alt="">
 		</div>
-
 		<!-- Small screen layout -->
 		<div class="supporting-page hide-lg">
 			<div class="supporting-page__half--top">
@@ -44,7 +42,6 @@
 			</div>
 		</div>
 		<!--  -->
-
 	</section>
 	<section class="content">
 		<div class="container">
@@ -59,21 +56,38 @@
 			</div>
 		</div>
 	</section>
+	<div id="privacy">
+		<div class="container">
+			<p>This website uses cookies to ensure you get the best experience. Our <a href="#">privacy policy</a></p>
+			<button type="button" name="button" onclick="closePrivacy()">Ok</button>
+		</div>
+	</div>
 	<footer>
 		<div class="container">
-
 			<div class="footer-col">
 				<h1>Vesper Insights</h1>
 				<p class="phone"><a href="tel:+34 666 77 4620
 					">+34 666 77 4620</a></p>
 				<p class="email"><a href="mailto:christina@vespermarketing.com">christina@vespermarketing.com</a></p>
 			</div>
-
 		</div>
 		<div class="footer-logo">
 			<img src="img/Love_Knot_RGB.png" alt="">
 		</div>
 	</footer>
 	<script src="js/menu.js"></script>
+	<script src="js/privacy.js"></script>
+	<script>
+	  window.addEventListener("load", function(event) {
+			var x = document.getElementById("privacy");
+
+			if (document.cookie.includes('Vesper_privacy=closed')) {
+				console.log('includes the string');
+			} else {
+				x.style.display = "block";
+			}
+	    console.log("All resources finished loading!");
+	  });
+	</script>
 </body>
 </html>

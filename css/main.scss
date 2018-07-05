@@ -17,7 +17,41 @@ $gradient: linear-gradient(to right, $aqua, $purple);
 * {
 	box-sizing: border-box;
 }
-
+#privacy {
+	display: none;
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	background: $lightgrey;
+	.container {
+		height: 100%;
+		display: flex;
+		align-items: center;
+	  justify-content: center;
+	}
+	a {
+		&:hover {
+			border-bottom: 1px solid $purple;
+			font-weight: 400;
+		}
+	}
+}
+button {
+	background: $purple;
+	color: $white;
+	padding: 1em 2em;
+	margin: 1em;
+	border-radius: 0;
+	font-size: 1em;
+	&:hover {
+		background: $aqua;
+		color: $black;
+		cursor: pointer;
+	}
+}
 body,
 html {
 	font-size: 16px;

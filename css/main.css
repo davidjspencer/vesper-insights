@@ -5,6 +5,36 @@
 * {
   box-sizing: border-box; }
 
+#privacy {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 20vh;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: #d3d3d3; }
+  #privacy .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #privacy a:hover {
+    border-bottom: 1px solid #ef32d9;
+    font-weight: 400; }
+
+button {
+  background: #ef32d9;
+  color: white;
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 0;
+  font-size: 1em; }
+  button:hover {
+    background: #89fffd;
+    color: #2E2E27;
+    cursor: pointer; }
+
 body,
 html {
   font-size: 16px;
@@ -421,6 +451,9 @@ footer {
   .icon-three {
     font-size: .65em; }
 
+  #privacy {
+    font-size: .75em; }
+
   .hide-sm {
     display: none !important; }
 
@@ -484,6 +517,9 @@ footer {
   .icon-three {
     font-size: .75em; }
 
+  #privacy {
+    font-size: .75em; }
+
   .hide-sm {
     display: none !important; }
 
@@ -537,6 +573,9 @@ footer {
   /* ####    MEDIUM     #### */
   .icon-three {
     font-size: 1em; }
+
+  #privacy {
+    font-size: .75em; }
 
   .hide-sm {
     display: none !important; }
