@@ -662,7 +662,8 @@ footer {
     .supporting-page__content .portrait {
       width: 25%;
       display: inline-block;
-      float: left; }
+      float: left;
+      margin-top: .5em; }
       .supporting-page__content .portrait img {
         border-radius: 50%;
         width: 100%;
