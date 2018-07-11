@@ -312,7 +312,8 @@ footer {
     .supporting-page__content .portrait img {
       border-radius: 50%;
       width: 100%;
-      height: auto; }
+      height: auto;
+      filter: grayscale(100%); }
   .supporting-page__content .row {
     clear: both;
     display: inline-flex;
