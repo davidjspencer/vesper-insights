@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>What We Do</title>
+	<meta name="description" content="Vesper Insights, European digital health expertise">
+  <meta name="keywords" content="Digital Health, eHealth, Ageing, Aging, Healthtech, European Health, European Health Tech Business development, Health Tech Marketing">
+  <link rel="canonical" href="https://www.vesperinsights.com/services.html" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/html5_doctor.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -83,7 +86,12 @@
 			</div>
 		</div>
 	</section>
-
+	<div id="privacy">
+		<div class="container">
+			<p>This website uses cookies to ensure you get the best experience. Our <a href="#">privacy policy</a></p>
+			<button type="button" name="button" onclick="closePrivacy()">Ok</button>
+		</div>
+	</div>
 	<footer>
 		<div class="container">
 			<div class="footer-col">
@@ -98,5 +106,18 @@
 		</div>
 	</footer>
 	<script src="js/menu.js"></script>
+	<script src="js/privacy.js"></script>
+	<script>
+	  window.addEventListener("load", function(event) {
+			var x = document.getElementById("privacy");
+
+			if (document.cookie.includes('Vesper_privacy=closed')) {
+				console.log('includes the string');
+			} else {
+				x.style.display = "block";
+			}
+	    console.log("All resources finished loading!");
+	  });
+	</script>
 </body>
 </html>
